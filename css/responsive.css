@@ -1,0 +1,116 @@
+@media (max-width:992px) {
+    .banner-overlay {
+        padding-top: 120px;
+    }
+
+   .banner-text-area .banner-header {
+    font-size: 45px;
+  }
+
+  .testi-contents .content h5 {
+    font-size: 20px;
+ }
+   
+   .offk-body {
+    background: #282629;
+   }
+
+   .offk-title {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+   }
+
+   .btn-offclose {
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+   }
+
+   .btn-offclose:hover {
+    color: white;
+   }
+
+   .btn-offclose:focus {
+    box-shadow: none;
+   }
+
+   .navbar .navbar-nav .nav-item .nav-link {
+    color: whitesmoke;
+    margin-right: 0px;
+ }
+
+ .navbar .navbar-nav .nav-item .nav-link.active {
+    color: #edc84d;
+ }
+
+ .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #edc84d;
+ }
+
+ .body-offmain {
+    padding-top: 0px;
+ }
+
+ .nav-socials a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+    font-size: 22px;
+  }
+
+  .nav-socials a:hover {
+    color: #edc84d;
+  }
+
+  .nav-socials a .fab {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+  }
+  
+  .nav-socials a .fab:hover {
+    -moz-transform:rotateY(360deg);
+    -webkit-transform:rotateY(360deg);
+    transform:rotateY(360deg);
+  }
+
+}
+
+@media (max-width:480px) {
+
+    .banner-overlay {
+        padding-top: 100px;
+    }
+
+    .banner-text-area .banner-header {
+        font-size: 35px;
+    }
+
+    .banner-text-area .banner-text {
+        font-size: 16px;
+    }
+
+    .intro-imgarea {
+        padding: 0px 0px;
+        margin-top: 30px;
+    }
+
+    .testi-contents .content h5 {
+        font-size: 19px;
+     }
+
+    .testi-content-bg {
+        min-height: 470px;
+    }
+
+    .mobile-testi-text h6 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+
+    .img-catindust {
+        height: 150px;
+    }
+}
