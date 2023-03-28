@@ -803,7 +803,7 @@ body p {
 
   .foot-text {
     font-family : 'Quicksand', 'san-serif';
-    color: whitesmoke;
+    color: white;
     font-size: 14px;
     line-height: 1.8em;
   }
@@ -819,7 +819,7 @@ body p {
 
   .foot-list li a {
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
     font-size: 14px;
     transition: all 0.3s ease-in-out;
   }
@@ -841,7 +841,7 @@ body p {
 
   .copyright p {
     font-size: 14px;
-    color: whitesmoke;
+    color: white;
     /* font-family : 'Quicksand', 'san-serif'; */
   }
 
