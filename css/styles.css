@@ -193,7 +193,7 @@ body p {
   }
   
   .swiper-container .slide-1 {
-      background: url(../img/contruction-2.jpeg) no-repeat center;
+      background: url(../img/warehouse-one.jpg) no-repeat center;
       background-size: cover;
       transition: 10s ease-out;
       transform: scale(1);
@@ -205,7 +205,7 @@ body p {
     transform: scale(1);
   }
   .swiper-container .slide-3 {
-    background: url(../img/construction-5.jpg) no-repeat center;
+    background: url(../img/warehouse-two.jpg) no-repeat center;
     background-size: cover;
     transition: 10s ease-out;
     transform: scale(1);
@@ -254,7 +254,7 @@ body p {
     height: 100%;
     width: 100%;
     padding-top: 120px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7));
   }
 
   /* #f0e00c */
