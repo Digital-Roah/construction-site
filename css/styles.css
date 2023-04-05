@@ -867,7 +867,138 @@ body p {
   /* About Us Styles */
 
   .about-banner {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(../img/beth-oth-ban2.jpg) no-repeat center fixed;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/beth-oth-ban2.jpg) no-repeat center fixed;
     background-size: cover;
-    min-height: 400px;
+    min-height: 350px;
+    padding-top: 100px;
+  }
+
+  .other-banhead {
+    padding-left: 30px;
+    border-left: 5px solid #edc84d;
+    color: white;
+  }
+
+  .other-bantext {
+    padding-left: 35px;
+  }
+
+  .other-bantext p {
+    color: white;
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+  }
+
+  .about-area h2 {
+    font-size: 35px;
+  }
+
+  .about-area p {
+    font-size: 18px;
+  }
+
+  .stats-area {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/other-bgs.jpg) no-repeat center fixed;
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .stat-content {
+    padding: 30px 10px;
+    border-bottom: 5px solid #edc84d;
+    text-align: center;
+  }
+
+  .stat-content .stat-icon {
+    display: block;
+    font-size: 50px;
+    color: white;
+  }
+
+  .stat-content .stat-number {
+    display: block;
+    font-size: 40px;
+    color: #edc84d;
+    font-weight: 700;
+  }
+
+  .stat-content .stat-info {
+    display: block;
+    font-size: 17px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  .core-values {
+    background: #282629;
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .core-values h4 {
+    font-size: 23px;
+  }
+
+  .core-values .purpose-area p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .core-values .value-area {
+    border-left: 3px solid #edc84d;
+    padding-left: 25px;
+  }
+
+  .core-values .value-area .value-list {
+    padding-inline-start: 15px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .core-values .value-area .value-list li {
+    line-height: 1.8em;
+  }
+
+  .member-area .img-ceo {
+    width: 100%;
+    max-height: 400px;
+    object-fit: scale-down;
+  }
+
+  .member-area .img-member {
+    width: 100%;
+    max-height: 300px;
+    object-fit: scale-down;
+  }
+
+  .member-area {
+    margin-top: 30px;
+  }
+
+  .member-text {
+    margin-top: 20px;
+  }
+
+  .member-text h5 {
+    font-size: 22px;
+  }
+
+  .member-text p {
+    color: #7e7d7d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .member-text .small-divisor {
+    background: #edc84d;
+    width: 100px;
+    height: 2px;
+    margin: 5px 0px;
   }

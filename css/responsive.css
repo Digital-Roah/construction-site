@@ -113,4 +113,41 @@
     .img-catindust {
         height: 150px;
     }
+
+    .about-banner {
+      padding-left: 10px;
+    }
+
+    .other-banhead h2 {
+      font-size: 30px;
+    }
+
+    .other-banhead h6 {
+      font-size: 15px;
+    }
+
+    .about-area h2 {
+      font-size: 30px;
+    }
+  
+    .about-area p {
+      font-size: 17px;
+    }
+
+    .core-values .value-area {
+      border-left: none;
+      padding-left: 0px;
+    }
+  
+    .core-values .value-area .value-list {
+      padding-inline-start: 15px;
+    }
+
+    .member-area .img-ceo {
+      max-height: none;
+    }
+  
+    .member-area .img-member {
+      max-height: none;
+    }
 }
