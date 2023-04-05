@@ -144,10 +144,10 @@
     }
 
     .member-area .img-ceo {
-      max-height: none;
+      max-height: 480px;
     }
   
     .member-area .img-member {
-      max-height: none;
+      max-height: 450px;
     }
 }
