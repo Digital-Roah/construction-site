@@ -76,6 +76,14 @@
     transform:rotateY(360deg);
   }
 
+  .nav-drop {
+    box-shadow: none;
+  }
+
+  .nav-drop .dropdown-item {
+    font-size: 15px;
+  }
+
 }
 
 @media (max-width:480px) {

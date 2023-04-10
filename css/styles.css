@@ -157,6 +157,56 @@ body p {
   color: #282629;
 }
 
+.abs-dropicon {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  margin-right: -10px;
+}
+
+.abs-dropicon span {
+  position: relative;
+  width: 30px;
+  text-align: end;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  /* background: #ac6b43; */
+  padding: 5px 10px;
+}
+
+.nav-drop {
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background: #282629;
+}
+
+.nav-drop .dropdown-item {
+  color: white;
+  font-size: 14px;
+  line-height: 1.8em;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.nav-drop .dropdown-item:hover {
+ color: #edc84d;
+ background: #282629;
+}
+
+.nav-drop .dropdown-item.active {
+  color: #edc84d;
+  background: #282629;
+}
+
+@media (min-width: 1025px) { 
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+}
+
  .brand-text {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -1001,4 +1051,60 @@ body p {
     width: 100px;
     height: 2px;
     margin: 5px 0px;
+  }
+
+  .team-area {
+    padding: 30px 20px;
+    margin-top: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .team-area .team-name {
+    color: #474747;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+  }
+
+  .team-area .team-position {
+    color: #7e7d7d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .team-area .thin-divisor {
+    background: #edc84d;
+    width: 120px;
+    height: 1.5px;
+    margin: 5px 0px;
+  }
+
+  .team-socials {
+    margin-top: 30px;
+  }
+
+  .team-socials a {
+    margin: 0px 5px;
+    color: #edc84d;
+    background: #282629;
+    padding: 10px;
+    text-decoration: none;
+    clear: both;
+    transition:all 0.8s, color 0.3s 0.3s; 
+  }
+
+  .team-socials a:hover {
+    color: #28262b;
+    background: white;
+    box-shadow:0 150px 0 0 white inset;
+}
+
+  /* Projects Styles */
+
+  .project-banner {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/warehouse-two.jpg) no-repeat center fixed;
+    background-size: cover;
+    min-height: 350px;
+    padding-top: 100px;
   }

@@ -48,3 +48,18 @@ $(window).scroll( function(){
      });
  });
  
+ // For customized dropdown
+function getdropdown(id) {
+  // alert(id);
+  $('#dropspan'+id).toggleClass('fa-angle-down fa-angle-right');
+  if($('#dropspan'+id).hasClass('fa-angle-down')) {
+      $('#dropcontent'+id).slideDown();
+  } else if($('#dropspan'+id).hasClass('fa-angle-right')) {
+      $('#dropcontent'+id).slideUp();
+  }
+}
+
+// if window width is <= 992px removed fadeInup animation for dropdown items
+if($(window).width() <= 992) {
+  $('.nav-drop').removeClass('animated fadeInUp');
+}
