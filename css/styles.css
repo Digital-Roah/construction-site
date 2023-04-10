@@ -1108,3 +1108,38 @@ body p {
     min-height: 350px;
     padding-top: 100px;
   }
+
+  .get-touch-area {
+    padding: 25px;
+    background: #fdf7e2;
+  }
+
+  .ind-bot {
+    background: #edc84d;
+    width: 60px;
+    height: 3px;
+  }
+
+  .get-touch-area .what-to-learn {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: #7e7d7d;
+  }
+
+  .get-touch-area .touch-info {
+    font-size: 13.5px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8em;
+  }
+
+  .get-touch-area .touch-link {
+    color: #7e7d7d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .get-touch-area .touch-link:hover {
+    color: #edc84d;
+  }
