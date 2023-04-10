@@ -158,4 +158,8 @@
     .member-area .img-member {
       max-height: 450px;
     }
+
+    .coldstore-banner {
+      padding-top: 80px;
+    }
 }
