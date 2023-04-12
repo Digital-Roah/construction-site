@@ -126,6 +126,10 @@ body p {
      background: white;
  } */
 
+ .img-logo {
+  width: 100px;
+ }
+
  .navbar {
     background: white;
  }
