@@ -1170,3 +1170,21 @@ body p {
       min-height: 350px;
       padding-top: 100px;
     }
+
+    .cold-list {
+      padding-inline-start: 15px;
+      color: #474747;
+      font-weight: 500;
+      line-height: 1.7em;
+    }
+
+    .temp-header {
+      font-size: 20px;
+    }
+
+    .indusdev-banner {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/industrial-development.jpg) no-repeat center fixed;
+      background-size: cover;
+      min-height: 350px;
+      padding-top: 100px;
+    }
