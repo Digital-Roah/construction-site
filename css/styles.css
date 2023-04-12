@@ -1150,3 +1150,23 @@ body p {
     min-height: 350px;
     padding-top: 100px;
   }
+
+    /* Resources Styles */
+
+    .warehouse-banner {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/warehouse-construct-banner.jpg) no-repeat center fixed;
+      background-size: cover;
+      min-height: 350px;
+      padding-top: 100px;
+    }
+
+    .img-floor {
+      width: 100%;
+    }
+
+    .coldstorage-banner {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)) , url(../img/cold-storage-construction.jpg) no-repeat center fixed;
+      background-size: cover;
+      min-height: 350px;
+      padding-top: 100px;
+    }

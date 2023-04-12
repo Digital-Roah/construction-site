@@ -162,4 +162,9 @@
     .coldstore-banner {
       padding-top: 80px;
     }
+
+    .coldstorage-banner {
+      padding-top: 80px;
+      padding-bottom: 20px;
+    }
 }

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethels Construction - Warehouse Construction</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Swiper Slider CSS -->
+    <link rel="stylesheet" href="swiper-slider/css/swiper-bundle.min.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <!-- Icofont CSS -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <!-- Font Awesome JS -->
+    <script src="js/font-awesome.js"></script>
+    <!-- Line Awesome CSS -->
+    <link rel="stylesheet" href="line-awesome/css/line-awesome.css">
+    <link rel="stylesheet" href="line-awesome/css/line-awesome.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="fancybox-master/fancybox-master/dist/jquery.fancybox.min.css">
+
+</head>
+<body>
+
+    <header class="site-header d-lg-block d-none">
+        <div class="header-container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="info-links">
+                        <a href="#"><i class="icofont-envelope-open"></i> info@bethelsconstruction.com</a>
+                        <a href="#"><i class="icofont-phone"></i> +12034470152</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-end">
+                   <div class="social-links">
+                     <a href="#"><i class="icofont-facebook"></i></a>
+                     <a href="#"><i class="icofont-twitter"></i></a>
+                     <a href="#"><i class="icofont-linkedin"></i></a>
+                     <a href="#"><i class="icofont-brand-youtube"></i></a>
+                   </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand brand-text" href="index.html">Bethels Const</a>
+        <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="offcanvas offcanvas-start offk-body" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title offk-title" id="offcanvasNavbarLabel">Bethels Const</h5>
+            <button type="button" class="btn btn-offclose" data-bs-dismiss="offcanvas" aria-label="Close"><span class="icofont-close-line"></span></button>
+          </div>
+          <div class="offcanvas-body body-offmain">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="industrial.html" id="dropdownId1" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="abs-dropicon d-lg-none">
+                        <span class="fa fa-angle-right text-white" id="dropspan1" onclick="getdropdown(1)"></span>
+                    </div>
+                    <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" id="dropcontent1" aria-labelledby="dropdownId1">
+                        <a class="dropdown-item" href="industrial.html">Industrial</a>
+                        <a class="dropdown-item" href="cold-storage-and-food-facilities.html">Cold Storage & Food Facilities</a>
+                    </div>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Our Business</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link active" href="warehouse-construction.html" id="dropdownId2" aria-haspopup="true" aria-expanded="false">Resources</a>
+                <div class="abs-dropicon d-lg-none">
+                  <span class="fa fa-angle-right text-white" id="dropspan2" onclick="getdropdown(2)"></span>
+              </div>
+              <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" id="dropcontent2" aria-labelledby="dropdownId2">
+                  <a class="dropdown-item active" href="warehouse-construction.html">Warehouse Construction</a>
+                  <a class="dropdown-item" href="coldstorage-construction.html">Cold Storage Construction</a>
+                  <a class="dropdown-item" href="#">Industrial Development</a>
+                  <a class="dropdown-item" href="#">Manufacturing Construction</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            <div class="nav-socials d-block d-lg-none mt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-youtube-square"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="warehouse-banner">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-10">
+                    <div class="other-banhead wow" data-wow-duration="2000">
+                        <h6 class="text-tajawal"><span class="icofont-home text-yellow"></span> Home / Resources / Warehouse Construction</h6>
+                        <h2 class="text-montserrat text-uppercase font-700 mt-2">Warehouse Construction</h2>
+                    </div>
+                    <div class="other-bantext wow" data-wow-duration="2000" data-wow-delay="0.2s">
+                        <p>Bethels Construction was recently rated as one of the Largest Domestic Builder of Warehouse and Distribution Facilities in the US.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="industrial-area">
+
+        <div class="container">
+  
+          <div class="row">
+  
+            <div class="col-lg-8">
+  
+              <h2 class="intro-head text-montserrat text-uppercase text-grey font-700">SPECIFICATIONS & EXPERTISE FROM THE WAREHOUSE CONTRACTOR</h2>
+              <div class="yellow-bot mb-3"></div>
+              <p>
+                As the number one builder of warehouse and distribution space in the U.S., Bethels Construction is expertly capable of providing the best, value-driven solutions for our customers’ warehouse construction needs. From speculative developments to large scale distribution facilities for ecommerce end-users, CPGs, and 3PL providers, Bethels Construction has the experience and expertise needed to help developers and owners achieve a successful warehouse development, regardless of complexity or scale.
+              </p>
+              
+            </div>
+  
+            <div class="col-lg-4 mt-lg-0 mt-4">
+              <div class="get-touch-area">
+                <h4 class="intro-head text-montserrat text-uppercase text-grey font-700">Get in Touch</h4>
+                <div class="ind-bot my-2"></div>
+                <p class="what-to-learn">Want to learn more about how to design and build your industrial facility?</p>
+                <p class="touch-info">Bethels Construction's design/build delivery method provides customers with go to contract pricing based on in-house preliminary design at no cost. Contact us today for more information</p>
+                <a href="mailto:info@bethelsconstruction.com" class="touch-link">info@bethelsconstruction.com</a>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </section>
+
+
+      <section class="warehouse-construction">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow fadeInLeft" data-wow-duration="2000">
+                   <img src="img/warehouse-construction.jpg" alt="warehouse-construction" class="img img-fluid">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="wow fadeInRight mt-md-0 mt-4" data-wow-duration="2000">
+                    <h3 class="intro-head text-montserrat text-uppercase text-grey font-700">Warehouse Construction</h3>
+                    <div class="yellow-bot mb-3"></div>
+                    </div>
+                    <p class="wow fadeInRight" data-wow-duration="2000" data-wow-delay="0.2s">When it comes to warehouse construction, there are many design and construction details that must be considered to achieve a successful development. Floor systems, exterior wall types, structure, bay sizing, building systems, and site design are all elements that should be explored in the earliest stages of a project to ensure the most functional and cost-effective facility.</p>
+                    <p class="wow fadeInRight" data-wow-duration="2000" data-wow-delay="0.4s">Space utilization, pre-existing site conditions, schedule needs, and more can all play a role in determining the most advantageous option for each of these elements. Partnering with an experienced contractor that is actively engaged throughout the design and beginning stages of a project will ensure that the very best design and construction decisions are made, resulting in a superior finished product and the very best customer experience.</p>
+                </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section class="floor-systems">
+        <div class="container">
+            <div class="wow fadeInUp" data-wow-duration="2000">
+                <h3 class="intro-head text-montserrat text-uppercase text-grey font-700">Floor Systems</h3>
+                <div class="yellow-bot mb-3"></div>
+            </div>
+            <p class="wow fadeInUp" data-wow-duration="2000">Choosing the proper floor system for a warehouse requires the knowledge of not only concrete types, but also site dynamics and how the client will be utilizing the space. Concrete floors can be reinforced or un-reinforced, formulated to be freezer/cooler compatible, shrinkage compensating, and specific to the floor loading and equipment path needs of the client. The needs of the client or future tenant should be established in the earliest stages of the project in order to determine the most advantageous floor system choice.</p>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/warehouse-concrete-floor.jpg" alt="Warehouse Concrete Floor" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">TRADITIONAL CONCRETE FLOORS</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/Ductilecrete.jpg" alt="Warehouse Ducilcrete" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">DUCTILCRETE</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/Shrinkage-Compensating.jpg" alt="Shrinkage Compensating" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">SHRINKAGE COMPENSATING</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/Heavy-loaded-floors.jpg" alt="HEAVY LOADED FLOORS/EQUIPMENT FOUNDATIONS" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">HEAVY LOADED FLOORS/EQUIPMENT FOUNDATIONS</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="exterior-walls">
+        <div class="container">
+            <div class="wow fadeInUp" data-wow-duration="2000">
+                <h3 class="intro-head text-montserrat text-uppercase text-grey font-700">Exterior Wall Types</h3>
+                <div class="yellow-bot mb-3"></div>
+            </div>
+            <p class="wow fadeInUp" data-wow-duration="2000">Exterior wall type decisions for warehouse facility construction are often based on building size, schedule needs, and exterior façade preferences. For larger warehouse facilities, uninsulated concrete panels poured onsite are typically the most cost-effective, and almost any exterior siding, cladding, or veneer can be applied to the outward facing portion. Insulated concrete panels result in higher efficiency and allow for minimal heating and cooling loss. Pre-cast panels are produced offsite year-round and can be installed prior to the floor slab, making them the ideal choice in some circumstances in which schedule restraints are of concern.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/non-insulated-concrete.jpg" alt="CONCRETE TILT PANEL/NON-INSULATED" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">CONCRETE TILT PANEL/NON-INSULATED</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/insulated-concrete-tilt.jpg" alt="CONCRETE TILT PANEL/INSULATED" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">CONCRETE TILT PANEL/INSULATED</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/precast-insulated.jpg" alt="PRECAST INSULATED PANELS" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">PRECAST INSULATED PANELS</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="building-structure">
+        <div class="container">
+            <div class="wow fadeInUp" data-wow-duration="2000">
+                <h3 class="intro-head text-montserrat text-uppercase text-grey font-700">Building Structure</h3>
+                <div class="yellow-bot mb-3"></div>
+            </div>
+            <p class="wow fadeInUp" data-wow-duration="2000">When determining the structure of a warehouse facility, roof loads, wall cladding, and storage heights must be considered. Steel joists, girders, and column structures can be engineered to span almost any distance and designed to support significant roof loads. Pre-engineered metal buildings can accommodate almost any wall cladding including insulated metal panels, precast concrete panels, and block/masonry. For warehouses in which large storage heights are necessary, a rack supported structure may be the most appropriate. Rack supported structures maximize warehouse footprint space and are typically associated with AS/RS facilities.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/warehouse-steel-joists.jpg"on alt="STEEL JOISTS" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">STEEL JOISTS</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/pre-engineered-metal-building.jpg" alt="PRE-ENGINEERED METAL BUILDING" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">PRE-ENGINEERED METAL BUILDING</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/rack-supported-2.jpg" alt="RACK SUPPORTED" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">RACK SUPPORTED</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="bay-sizing">
+        <div class="container">
+            <div class="wow fadeInUp" data-wow-duration="2000">
+                <h3 class="intro-head text-montserrat text-uppercase text-grey font-700">Bay Sizing</h3>
+                <div class="yellow-bot mb-3"></div>
+            </div>
+            <p class="wow fadeInUp" data-wow-duration="2000">
+                Bay sizing and racking layout options and standards are also important considerations in warehouse construction. Racking layouts, aisle sizes, and travel paths for forklifts are determined based on the width and clear height of the building. A warehouse contractor with the proper knowledge of industry standards regarding these factors is crucial to successful warehouse construction and the overall functionality of the facility.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/warehouse-bay-sizing.jpg" alt="Bay Sizing" class="img img-floor">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="building-systems">
+        <div class="container">
+            <div class="wow fadeInUp" data-wow-duration="2000">
+                <h3 class="intro-head text-montserrat text-uppercase text-grey font-700">Building Systems</h3>
+                <div class="yellow-bot mb-3"></div>
+            </div>
+            <p class="wow fadeInUp" data-wow-duration="2000">Dock types, sizes, and specifications must also be determined in the design phase of a warehouse construction project. Owners can choose between mechanical and hydraulic docks based on their functionality needs. Additional building systems that must be considered include electrical service, HVAC, fire protection, and lighting. In addition to evaluating options and standards associated with these systems, it is also critical to understand code requirements to avoid design change orders and occupancy delays.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/mechanical-docks.jpg" alt="MECHANICAL DOCKS" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">MECHANICAL DOCKS</h6>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/hydraulic-docks.jpg" alt="HYDRAULIC DOCKS" class="img img-floor">
+                        <h6 class="text-questrial text-center text-grey font-600 mt-3">HYDRAULIC DOCKS</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="bay-sizing">
+        <div class="container">
+            <div class="wow fadeInUp" data-wow-duration="2000">
+                <h3 class="intro-head text-montserrat text-uppercase text-grey font-700">Site Design</h3>
+                <div class="yellow-bot mb-3"></div>
+            </div>
+            <p class="wow fadeInUp" data-wow-duration="2000">When it comes to site design, there are several rules of thumb regarding car parking per SF, truck parking per SF, docks per SF, and office space per SF. Additionally, there are standard dimensions for dock aprons, truck drive, truck parking, car parking, and drive aisles. Partnering with an experienced warehouse contractor will ensure that a warehouse facility’s site is designed to utilize the space in the most efficient and functional way possible.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="concrete-floor mt-lg-0 mt-3 wow fadeInUp" data-wow-duration="2000">
+                        <img src="img/warehouse-site-design.jpg" alt="Warehouse Site Design" class="img img-floor">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="contact-area">
+
+        <div class="container">
+    
+          <div class="offer-head wow fadeInUp" data-wow-duration="2000" align="center">
+            <h3 class="text-montserrat text-uppercase text-grey font-600">Contact Us</h3>
+            <div class="yellow-bot"></div>
+          </div>
+    
+          <p class="contact-para">Get In Touch with Bethel's Construction Today</p>
+    
+          <div class="row">
+    
+            <div class="col-lg-8 wow fadeIn order-last order-lg-first" data-wow-duration="2000">
+    
+              <form action="#un" method="post">
+    
+                <div class="row">
+    
+                  <div class="col-md-6">
+                     <div class="form-group contact-group mt-3">
+                      <label for="name" class="form-label contact-label">Name</label>
+                      <input type="text" name="name" id="name" class="form-control contact-control" placeholder="Enter Name">
+                     </div>
+                  </div>
+    
+                  <div class="col-md-6">
+                    <div class="form-group contact-group mt-3">
+                     <label for="email" class="form-label contact-label">Email</label>
+                     <input type="email" name="email" id="email" class="form-control contact-control" placeholder="Enter Email">
+                    </div>
+                 </div>
+    
+                 <div class="col-md-6">
+                  <div class="form-group contact-group mt-3">
+                   <label for="phone" class="form-label contact-label">Phone Number</label>
+                   <input type="phone" name="phone" id="phone" class="form-control contact-control" placeholder="Enter Phone Number">
+                  </div>
+               </div>
+    
+               <div class="col-md-6">
+                <div class="form-group contact-group mt-3">
+                 <label for="topic" class="form-label contact-label">Subject</label>
+                 <input type="text" name="topic" id="topic" class="form-control contact-control" placeholder="Subject of Topic">
+                </div>
+             </div>
+    
+              <div class="col-md-12">
+                <div class="form-group contact-group mt-3">
+                  <label for="msg" class="form-label contact-label">Message</label>
+                  <textarea name="msg" id="msg" cols="30" rows="6" class="form-control contact-control" placeholder="Enter Message"></textarea>
+                </div>
+              </div>
+    
+              <div class="col-md-12">
+                <div class="d-grid mt-3">
+                  <button type="submit" class="btn btn-submit">Send <span class="fa fa-paper-plane-o"></span></button>
+                </div>
+              </div>
+    
+                </div>
+    
+              </form>
+    
+            </div>
+    
+            <div class="col-lg-4 pt-3 ps-lg-4 wow fadeIn order-first order-lg-last" data-wow-duration="2000">
+    
+              <div class="contact-info">
+                <div class="row">
+                  <div class="col-1">
+                <h4 class="text-saira"><i class="la la-home text-yellow"></i></h4>
+              </div>
+              <div class="col-11">
+                <h4 class="text-saira">Head Office</h4>
+                <p>James ari lane, 15 north main street, hartford, 06107</p>
+              </div>
+              </div>
+              </div>
+    
+              <div class="contact-info mt-2">
+                <div class="row">
+                  <div class="col-1">
+                <h4 class="text-saira"><i class="la la-envelope-o text-yellow"></i></h4>
+              </div>
+              <div class="col-11">
+                <h4 class="text-saira">Email Address</h4>
+                <p>info@bethelsconstruction.com</p>
+              </div>
+              </div>
+              </div>
+    
+              <div class="contact-info mt-2">
+                <div class="row">
+                  <div class="col-1">
+                <h4 class="text-saira"><i class="la la-phone text-yellow"></i></h4>
+              </div>
+              <div class="col-11">
+                <h4 class="text-saira">Phone Number</h4>
+                <p>+12034470152</p>
+              </div>
+              </div>
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+       </section>
+
+    <section></section>
+
+    <footer class="footer-area">
+ 
+     <div class="container">
+ 
+       <div class="row">
+ 
+         <div class="col-lg-4">
+           <h5 class="foot-head">About</h5>
+           <!-- <p class="foot-text">
+             With 40 offices coast to coast, Bethels Construction offers the strength and presence of a national general contractor with the personal attention of a small business. Our unique affiliate model provides clients with local and regional knowledge and presence throughout the United States.</p> -->
+             <p class="foot-text">Bethels Construction is construction firm that deals basically in the design and construction of industrial buildings majorly in the area of warehousing. With over 20 years of working and partnership experiences our knowlegeable and reliable team have been performing exceptionally well in carrying out projects globally particularly in the United States.</p>
+         </div>
+ 
+         <div class="col-lg-4">
+           <h5 class="foot-head">Navigation</h5>
+           <ul class="foot-list">
+             <li><a href="#un">Home</a></li>
+             <li><a href="#un">About</a></li>
+             <li><a href="#un">Projects</a></li>
+             <!-- <li><a href="#un">Our Business</a></li> -->
+             <li><a href="#un">Resources</a></li>
+             <li><a href="#un">Careers</a></li>
+             <li><a href="#un">Contact</a></li>
+           </ul>
+         </div>
+ 
+         <div class="col-lg-4">
+           <h5 class="foot-head">Contact</h5>
+           <ul class="foot-list">
+             <li><a href="#un"><i class="fa fa-home text-yellow me-1"></i> Address : James ari lane, 15 north main street, hartford, 06107</a></li>
+             <li><a href="#un"><i class="fa fa-envelope-o text-yellow me-1"></i> Email : info@bethelsconstruction.com</a></li>
+             <li><a href="#un"><i class="fa fa-phone text-yellow me-1"></i> Phone Number : +12034470152</a></li>
+           </ul>
+         </div>
+ 
+       </div>
+ 
+       <div class="text-center mt-4">
+         <div class="foot-social">
+           <a href="#un" class="social-link"><i class="icofont-facebook"></i></a>
+           <a href="#un" class="social-link"><i class="icofont-twitter"></i></a>
+           <a href="#un" class="social-link"><i class="icofont-linkedin"></i></a>
+           <a href="#un" class="social-link"><i class="icofont-brand-youtube"></i></a>
+         </div>
+         <div class="copyright">
+           <p class="mb-0 mt-3">Copyright &copy; 2023. All Rights Reserved.</p>
+         </div>
+       </div>
+ 
+     </div>
+ 
+    </footer>
+ 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="la la-angle-up" aria-hidden="true"></i></button>
+     
+     <!-- Bootstrap JS -->
+     <script src="bootstrap/js/popper.min.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+     <!-- Jquery 3.5.1 -->
+     <script src="js/jquery-2.1.3.min.js"></script>
+     <!-- Swiper Slider Js -->
+     <script src="swiper-slider/js/swiper-bundle.min.js"></script>
+     <script src="js/gsap.min.js"></script>
+ 
+     <!-- Slick Carousel JS -->
+     <script src="slick-js/jquery-migrate-1.2.1.min.js"></script>
+     <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+     <script>
+       $('.my-slider').slick({
+ centerMode: true,
+ centerPadding: '60px',
+ slidesToShow: 3,
+ dots: true,
+ dotsClass: 'myslider-dots',
+ autoplay:true,
+ speed: 2000,
+ autoplaySpeed:4000,
+ arrows: true,
+ nextArrow: '<button class="slider-arrow next inverted"><i class="icofont-rounded-right"></i></button>',
+ prevArrow: '<button class="slider-arrow prev inverted"><i class="icofont-rounded-left"></i></button>',
+ responsive: [
+  {
+    breakpoint: 992,
+    settings: {
+      arrows: true,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 2
+    }
+  },
+  {
+    breakpoint: 480,
+    settings: {
+      arrows: true,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 1
+    }
+  }
+ ]
+ });
+  </script>
+ 
+         <!-- WOW JS -->
+     <script src="js/wow.js"></script>
+     <script>
+         wow = new WOW(
+         {
+             boxClass:     'wow',      // default
+             animateClass: 'animated', // default
+             offset:       0,          // default
+             mobile:       true,       // default
+             live:         true        // default
+         }
+         )
+         wow.init();
+              
+     </script>   
+     <!-- FancyBox JS -->
+     <script src="fancybox-master/fancybox-master/dist/jquery.fancybox.min.js"></script>
+     <!-- Custom JS -->
+     <script src="js/script.js"></script>
+     <script>
+        $(document).ready(function() {
+          $('.other-banhead').addClass('fadeInRight');
+          $('.other-bantext').addClass('fadeInUp');
+        });
+     </script>
+
+                 <!-- Jquery Counter Up -->
+                 <script src="js/jquery-ui.min.js"></script>
+                 <script src="js/waypoints.min.js"></script>
+                 <script src="js/jquery.counterup.min.js"></script>
+                 <script>
+                   $('.counter').counterUp({
+               delay: 10,
+               time: 3000
+             });
+             </script>
+ 
+ </body>
+ </html>
