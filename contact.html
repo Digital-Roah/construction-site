@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethels Construction - Contact Us</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Swiper Slider CSS -->
+    <link rel="stylesheet" href="swiper-slider/css/swiper-bundle.min.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <!-- Icofont CSS -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <!-- Font Awesome JS -->
+    <script src="js/font-awesome.js"></script>
+    <!-- Line Awesome CSS -->
+    <link rel="stylesheet" href="line-awesome/css/line-awesome.css">
+    <link rel="stylesheet" href="line-awesome/css/line-awesome.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="fancybox-master/fancybox-master/dist/jquery.fancybox.min.css">
+
+</head>
+<body>
+
+    <header class="site-header d-lg-block d-none">
+        <div class="header-container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="info-links">
+                        <a href="#"><i class="icofont-envelope-open"></i> info@bethelsconstruction.com</a>
+                        <a href="#"><i class="icofont-phone"></i> +12034470152</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-end">
+                   <div class="social-links">
+                     <a href="#"><i class="icofont-facebook"></i></a>
+                     <a href="#"><i class="icofont-twitter"></i></a>
+                     <a href="#"><i class="icofont-linkedin"></i></a>
+                     <a href="#"><i class="icofont-brand-youtube"></i></a>
+                   </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand brand-text" href="index.html">Bethels Const</a>
+        <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="offcanvas offcanvas-start offk-body" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title offk-title" id="offcanvasNavbarLabel">Bethels Const</h5>
+            <button type="button" class="btn btn-offclose" data-bs-dismiss="offcanvas" aria-label="Close"><span class="icofont-close-line"></span></button>
+          </div>
+          <div class="offcanvas-body body-offmain">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="industrial.html" id="dropdownId1" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="abs-dropicon d-lg-none">
+                        <span class="fa fa-angle-right text-white" id="dropspan1" onclick="getdropdown(1)"></span>
+                    </div>
+                    <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" id="dropcontent1" aria-labelledby="dropdownId1">
+                        <a class="dropdown-item" href="industrial.html">Industrial</a>
+                        <a class="dropdown-item" href="cold-storage-and-food-facilities.html">Cold Storage & Food Facilities</a>
+                    </div>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Our Business</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="warehouse-construction.html" id="dropdownId2" aria-haspopup="true" aria-expanded="false">Resources</a>
+                <div class="abs-dropicon d-lg-none">
+                  <span class="fa fa-angle-right text-white" id="dropspan2" onclick="getdropdown(2)"></span>
+              </div>
+              <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" id="dropcontent2" aria-labelledby="dropdownId2">
+                  <a class="dropdown-item" href="warehouse-construction.html">Warehouse Construction</a>
+                  <a class="dropdown-item" href="coldstorage-construction.html">Cold Storage Construction</a>
+                  <a class="dropdown-item" href="industrial-development.html">Industrial Development</a>
+                  <a class="dropdown-item" href="manufacturing-construction.html">Manufacturing Construction</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            <div class="nav-socials d-block d-lg-none mt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-youtube-square"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-banner">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-10">
+                    <div class="other-banhead wow" data-wow-duration="2000">
+                        <h6 class="text-tajawal"><span class="icofont-home text-yellow"></span> Home / Contact Us</h6>
+                        <h2 class="text-montserrat text-uppercase font-700 mt-2">Contact Us</h2>
+                    </div>
+                    <div class="other-bantext wow" data-wow-duration="2000" data-wow-delay="0.2s">
+                        <p>Reach out to Bethels Construction by filing the form below or utilizing any of our contact options provided to you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="contact-area">
+
+        <div class="container">
+    
+          <div class="offer-head wow fadeInUp" data-wow-duration="2000" align="center">
+            <h3 class="text-montserrat text-uppercase text-grey font-600">Contact Us</h3>
+            <div class="yellow-bot"></div>
+          </div>
+    
+          <p class="contact-para">Get In Touch with Bethel's Construction Today</p>
+    
+          <div class="row">
+    
+            <div class="col-lg-8 wow fadeIn order-last order-lg-first" data-wow-duration="2000">
+    
+              <form action="#un" method="post">
+    
+                <div class="row">
+    
+                  <div class="col-md-6">
+                     <div class="form-group contact-group mt-3">
+                      <label for="name" class="form-label contact-label">Name</label>
+                      <input type="text" name="name" id="name" class="form-control contact-control" placeholder="Enter Name">
+                     </div>
+                  </div>
+    
+                  <div class="col-md-6">
+                    <div class="form-group contact-group mt-3">
+                     <label for="email" class="form-label contact-label">Email</label>
+                     <input type="email" name="email" id="email" class="form-control contact-control" placeholder="Enter Email">
+                    </div>
+                 </div>
+    
+                 <div class="col-md-6">
+                  <div class="form-group contact-group mt-3">
+                   <label for="phone" class="form-label contact-label">Phone Number</label>
+                   <input type="phone" name="phone" id="phone" class="form-control contact-control" placeholder="Enter Phone Number">
+                  </div>
+               </div>
+    
+               <div class="col-md-6">
+                <div class="form-group contact-group mt-3">
+                 <label for="topic" class="form-label contact-label">Subject</label>
+                 <input type="text" name="topic" id="topic" class="form-control contact-control" placeholder="Subject of Topic">
+                </div>
+             </div>
+    
+              <div class="col-md-12">
+                <div class="form-group contact-group mt-3">
+                  <label for="msg" class="form-label contact-label">Message</label>
+                  <textarea name="msg" id="msg" cols="30" rows="6" class="form-control contact-control" placeholder="Enter Message"></textarea>
+                </div>
+              </div>
+    
+              <div class="col-md-12">
+                <div class="d-grid mt-3">
+                  <button type="submit" class="btn btn-submit">Send <span class="fa fa-paper-plane-o"></span></button>
+                </div>
+              </div>
+    
+                </div>
+    
+              </form>
+    
+            </div>
+    
+            <div class="col-lg-4 pt-3 ps-lg-4 wow fadeIn order-first order-lg-last" data-wow-duration="2000">
+    
+              <div class="contact-info">
+                <div class="row">
+                  <div class="col-1">
+                <h4 class="text-saira"><i class="la la-home text-yellow"></i></h4>
+              </div>
+              <div class="col-11">
+                <h4 class="text-saira">Head Office</h4>
+                <p>James ari lane, 15 north main street, hartford, 06107</p>
+              </div>
+              </div>
+              </div>
+    
+              <div class="contact-info mt-2">
+                <div class="row">
+                  <div class="col-1">
+                <h4 class="text-saira"><i class="la la-envelope-o text-yellow"></i></h4>
+              </div>
+              <div class="col-11">
+                <h4 class="text-saira">Email Address</h4>
+                <p>info@bethelsconstruction.com</p>
+              </div>
+              </div>
+              </div>
+    
+              <div class="contact-info mt-2">
+                <div class="row">
+                  <div class="col-1">
+                <h4 class="text-saira"><i class="la la-phone text-yellow"></i></h4>
+              </div>
+              <div class="col-11">
+                <h4 class="text-saira">Phone Number</h4>
+                <p>+12034470152</p>
+              </div>
+              </div>
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+       </section>
+
+       <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.0293316190423!2d-72.7422059!3d41.76302539999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7aced280dbde5%3A0x78a579b08a078a3b!2sRegus%20-%20West%20Hartford%20-%20Main%20Street!5e0!3m2!1sen!2sng!4v1681316698430!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </section>
+
+    <section></section>
+
+    <footer class="footer-area">
+ 
+     <div class="container">
+ 
+       <div class="row">
+ 
+         <div class="col-lg-4">
+           <h5 class="foot-head">About</h5>
+           <!-- <p class="foot-text">
+             With 40 offices coast to coast, Bethels Construction offers the strength and presence of a national general contractor with the personal attention of a small business. Our unique affiliate model provides clients with local and regional knowledge and presence throughout the United States.</p> -->
+             <p class="foot-text">Bethels Construction is construction firm that deals basically in the design and construction of industrial buildings majorly in the area of warehousing. With over 20 years of working and partnership experiences our knowlegeable and reliable team have been performing exceptionally well in carrying out projects globally particularly in the United States.</p>
+         </div>
+ 
+         <div class="col-lg-4">
+           <h5 class="foot-head">Navigation</h5>
+           <ul class="foot-list">
+             <li><a href="#un">Home</a></li>
+             <li><a href="#un">About</a></li>
+             <li><a href="#un">Projects</a></li>
+             <!-- <li><a href="#un">Our Business</a></li> -->
+             <li><a href="#un">Resources</a></li>
+             <li><a href="#un">Careers</a></li>
+             <li><a href="#un">Contact</a></li>
+           </ul>
+         </div>
+ 
+         <div class="col-lg-4">
+           <h5 class="foot-head">Contact</h5>
+           <ul class="foot-list">
+             <li><a href="#un"><i class="fa fa-home text-yellow me-1"></i> Address : James ari lane, 15 north main street, hartford, 06107</a></li>
+             <li><a href="#un"><i class="fa fa-envelope-o text-yellow me-1"></i> Email : info@bethelsconstruction.com</a></li>
+             <li><a href="#un"><i class="fa fa-phone text-yellow me-1"></i> Phone Number : +12034470152</a></li>
+           </ul>
+         </div>
+ 
+       </div>
+ 
+       <div class="text-center mt-4">
+         <div class="foot-social">
+           <a href="#un" class="social-link"><i class="icofont-facebook"></i></a>
+           <a href="#un" class="social-link"><i class="icofont-twitter"></i></a>
+           <a href="#un" class="social-link"><i class="icofont-linkedin"></i></a>
+           <a href="#un" class="social-link"><i class="icofont-brand-youtube"></i></a>
+         </div>
+         <div class="copyright">
+           <p class="mb-0 mt-3">Copyright &copy; 2023. All Rights Reserved.</p>
+         </div>
+       </div>
+ 
+     </div>
+ 
+    </footer>
+ 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="la la-angle-up" aria-hidden="true"></i></button>
+     
+     <!-- Bootstrap JS -->
+     <script src="bootstrap/js/popper.min.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+     <!-- Jquery 3.5.1 -->
+     <script src="js/jquery-2.1.3.min.js"></script>
+     <!-- Swiper Slider Js -->
+     <script src="swiper-slider/js/swiper-bundle.min.js"></script>
+     <script src="js/gsap.min.js"></script>
+ 
+     <!-- Slick Carousel JS -->
+     <script src="slick-js/jquery-migrate-1.2.1.min.js"></script>
+     <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+     <script>
+       $('.my-slider').slick({
+ centerMode: true,
+ centerPadding: '60px',
+ slidesToShow: 3,
+ dots: true,
+ dotsClass: 'myslider-dots',
+ autoplay:true,
+ speed: 2000,
+ autoplaySpeed:4000,
+ arrows: true,
+ nextArrow: '<button class="slider-arrow next inverted"><i class="icofont-rounded-right"></i></button>',
+ prevArrow: '<button class="slider-arrow prev inverted"><i class="icofont-rounded-left"></i></button>',
+ responsive: [
+  {
+    breakpoint: 992,
+    settings: {
+      arrows: true,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 2
+    }
+  },
+  {
+    breakpoint: 480,
+    settings: {
+      arrows: true,
+      centerMode: true,
+      centerPadding: '40px',
+      slidesToShow: 1
+    }
+  }
+ ]
+ });
+  </script>
+ 
+         <!-- WOW JS -->
+     <script src="js/wow.js"></script>
+     <script>
+         wow = new WOW(
+         {
+             boxClass:     'wow',      // default
+             animateClass: 'animated', // default
+             offset:       0,          // default
+             mobile:       true,       // default
+             live:         true        // default
+         }
+         )
+         wow.init();
+              
+     </script>   
+     <!-- FancyBox JS -->
+     <script src="fancybox-master/fancybox-master/dist/jquery.fancybox.min.js"></script>
+     <!-- Custom JS -->
+     <script src="js/script.js"></script>
+     <script>
+        $(document).ready(function() {
+          $('.other-banhead').addClass('fadeInRight');
+          $('.other-bantext').addClass('fadeInUp');
+        });
+     </script>
+
+                 <!-- Jquery Counter Up -->
+                 <script src="js/jquery-ui.min.js"></script>
+                 <script src="js/waypoints.min.js"></script>
+                 <script src="js/jquery.counterup.min.js"></script>
+                 <script>
+                   $('.counter').counterUp({
+               delay: 10,
+               time: 3000
+             });
+             </script>
+ 
+ </body>
+ </html>

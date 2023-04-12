@@ -1188,3 +1188,42 @@ body p {
       min-height: 350px;
       padding-top: 100px;
     }
+
+    .manufacturing-banner {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/manufacturing-construction.jpg) no-repeat center fixed;
+      background-size: cover;
+      min-height: 350px;
+      padding-top: 100px;
+    }
+
+    .text-manufacture {
+      color: #7e7d7d;
+      font-size: 15px;
+    }
+
+    .career-banner {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/career-3.webp) no-repeat center fixed;
+      background-size: cover;
+      min-height: 350px;
+      padding-top: 100px;
+    }
+
+    .diversity-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+  }
+
+  .diversity-header {
+    font-size: 27px;
+    line-height: 1.8em;
+  }
+
+  .contact-banner {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) , url(../img/contact-banner.jpg) no-repeat center fixed;
+    background-size: cover;
+    min-height: 350px;
+    padding-top: 100px;
+  }
